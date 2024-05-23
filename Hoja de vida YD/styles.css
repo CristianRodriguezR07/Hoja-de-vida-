@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3a0d3f;
+    color: #e4e4e4;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #291b27;
+    color: #fff;
+    position: fixed;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img.profile-pic {
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: #e4e4e4;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #1e1e2f;
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 40px;
+}
+
+.main-content section {
+    margin-bottom: 40px;
+}
+
+.main-content section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1a5a6f;
+    border-bottom: 2px solid #00bfff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.main-content section p, 
+.main-content section ul {
+    font-size: 18px;
+}
+
+.main-content section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-content section ul li {
+    margin: 10px 0;
+}
+
+.main-content img.project-pic {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d44;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e
